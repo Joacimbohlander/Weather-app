@@ -1,19 +1,11 @@
-import React, {useState} from 'react'
-import {CityContainer, CityNav} from './CityPageElements'
+import React from 'react'
 
-
-
-const CityPage = ({isFavorite, toggle}) => {
-
-
-
+function SearchFunc() {
     return (
-        <CityContainer>
-            <CityNav>
-                <button onClick={toggle}> sassa</button>
-            </CityNav> 
-        </CityContainer>
+        <div>
+            
+        </div>
     )
 }
 
-export default CityPage
+export default SearchFunc
