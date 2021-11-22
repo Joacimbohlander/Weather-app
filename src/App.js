@@ -5,14 +5,9 @@ import CityPage from './Components/ResultPage';
 
 const App = () => {
 
-  const [isFavorite, setIsFavorite] = useState(false);
-  const toggle = () => {
-      setIsFavorite(!isFavorite)
-  }
-
   return (
     <Router>
-      <CityPage isFavorite={isFavorite} toggle={toggle} />
+      <CityPage/>
     </Router>
   );
 }
